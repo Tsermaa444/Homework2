@@ -4,14 +4,12 @@
 using namespace std;
 
 int main(){
-    int n;
-    cout<<"Enter a number: ";
-    cin>>n; //n=20
+    int x=20;
+    int y=35;
+    int sum;
+    sum =x+y;
+    cout << sum;
     
-    for(int i = 1; i<=n ; i++){
-        cout<<i<<" ";
-    }
-
+    
     
     return 0;
-}
