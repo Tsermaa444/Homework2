@@ -4,17 +4,16 @@
 using namespace std;
 
 int main(){
-    int a,b,sum;
-    cout<<"Enter first number :";
-    cin>>a;
-    cout<<"Enter second number :";
-    cin>>b;
+    int x=20;
+    double d=2.345;
+    char c='5';
+    string s= " Hello World";
     
-    sum = a + b;
+    cout << "x="<<x<<endl;
+    cout << "d="<<d<<endl;
+    cout << "c="<<c<<endl;
+    cout << "s="<<s;
     
     
-    cout<<"sum of two number is "<<sum<<endl;
-    cout<<"twice sum of two number is "<<sum*2;
     
     return 0;
-}
