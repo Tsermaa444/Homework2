@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 25, y = 5, sum, sub, multi, div;
+    sum = x + y;
+    sub = x -y;
+    multi = x * y;
+    div = x / y;
+    cout << "sum =" << sum << endl << "sub =" << sub << endl << "multi =" << multi << endl<< "div =" << div;
+
+    return 0;
+}
+
