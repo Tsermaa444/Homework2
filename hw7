@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+    char d;
+    cout << " Enter a character: ";
+    cin >> d;
+    
+    if ((d >= 'a' && d <= 'z') || ( d >= 'A' && d <= 'Z')){
+        cout << " d ni useg bna";}
+    
+    else cout << ( " d ni useg bish bna.");
+    
+    
+    
+    
+    
+    
+
+   
+    
+    
+    
+    
+    
+    return 0;
+}
