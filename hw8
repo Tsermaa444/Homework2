@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+    char d;
+    cout << " Enter a character: ";
+    cin >> d;
+    
+    if ((d == 'a' && d == 'e') && ((d == 'O' && d =='y')&& (d == 'u'))) {
+        cout << " hervee bieleh yum bol egshig bn";}
+    
+    else cout << ( " ugui bol giiguulegch bn");
+    
+    
+    
+    
+    
+    
+
+   
+    
+    
+    
+    
+    
+    return 0;
+}
+
