@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+    int num;
+    cout << "Enter number:";
+    cin >> num;
+    
+    if (num % 5 == 0 && num % 11 == 0){
+        cout <<" 5 bolon 11 t huvaagdah too baina";}
+        
+        else cout << "5 bolon 11 t buhleer hubaagdahgui too bn";
+    
+    
+    
+    
+    
+    
+
+   
+    
+    
+    
+    
+    
+    return 0;
+}
+
