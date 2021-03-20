@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int a = 2;
+    int n;
+    
+    cout << "n=";
+    cin >> n;
+    
+    int sum = 1;
+
+    
+    string s = "IOI";
+    
+    for (int i = 1; i <= n; i ++)
+    sum = sum * a;
+    
+        cout << sum << "\n";
+    
+    
+    
+    
+    return 0;
+}
