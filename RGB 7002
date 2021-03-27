@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int a1, a2, a3, p;
+    cin >> a1;
+    cin >> a2;
+    cin  >> a3;
+    p = a1 + a2 + a3;
+    
+    cout << p;
+    
+
+    
+    
+    
+    
+    
+    return 0;
+}
