@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int a,e, s;
+    cin >> a;
+    e = a * a * a;
+    s = 6 * a * a;
+    cout << e << s;
+    
+
+    
+    
+    
+    
+    
+    return 0;
+}
