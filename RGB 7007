@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int num, last;
+    cout << "Enter the number:";
+    cin >> num;
+    last = num %10;
+    
+    cout << " The last digit of entered number:" << last << endl;
+
+    
+    
+
+    
+    
+    
+    
+    
+    return 0;
+}
