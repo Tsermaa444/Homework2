@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int a, b, prem, area;
+    cout << "Enter first number:";
+    cin >>a;
+    cout << "Enter second number:";
+    cin >>b;
+    prem = (a + b)* 2;
+    area = a * b;
+    cout <<"sum of two number is" <<prem;
+    cout << "multiples two values" << area;
+
+    
+    
+
+    
+    
+    
+    
+    
+    return 0;
+}
