@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int x, y, div;
+    cout << "Enter a number:";
+    cin >> x;
+    cout << " Enter anouther number:";
+    cin >> y;
+    div = x / y;
+    cout << " Dividends of two number is" << div;
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+      return 0;
+
+}
