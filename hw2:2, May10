@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int x, y, dif;
+    cout << "Enter a number:";
+    cin >> x;
+    cout << " Enter anouther number:";
+    cin >> y;
+    dif = x - y;
+    cout << " Difference of two number is" << dif;
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+      return 0;
+
+}
