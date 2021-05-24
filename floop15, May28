@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number, reminder, digitProduct;
+    cout << "\n Enter the Number to find the Digits Products =";
+    cin >> number;
+    for (digitProduct = 1; number > 0; number = number / 10)
+    {
+        cout << "\n number ="<< number;
+        reminder = number % 10;
+        cout << "\n reminder ="<< reminder;
+        digitProduct = digitProduct * reminder;
+        cout << digitProduct;
+    }
+    cout <<" \n The Product of all Digits in a given Number =" << digitProduct;
+    
+    return 0;
+    
+}
+    
+            
+    
+    
+    
+    
+    
+    
+    
+    
+
