@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number, firstDigit,lastDigit, sum;
+    cout << "\n Enter Number to find Sum of First and Last Digit =";
+    cin >> number;
+    
+    for (firstDigit = number; firstDigit >=10; firstDigit = firstDigit/10);
+    lastDigit = number % 10;
+    sum = firstDigit + lastDigit;
+    
+    cout << "\nThe FirstDigit in a Given Number" << number << " = " << firstDigit;
+    cout << "\nThe LastDigit in a Given Number" << number << " = " << lastDigit;
+    cout << "\nThe Sum of First and Last Digit of" << number << " = " << sum;
+    
+         return 0;
+}
+    
+   
+        
+    
+
+            
+    
+    
